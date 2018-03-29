@@ -1,0 +1,216 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Responsive Jquery Pop Up Gallery Demo Example 1</title>
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
+
+<link href="_css/Icomoon/style.css" rel="stylesheet" type="text/css" />
+<link href="_css/main.css" rel="stylesheet" type="text/css"/>
+<link href="_css/pop-up-gallery1.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="_scripts/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="_scripts/pop-up-gallery1.js"></script>
+
+</head>
+
+<body>
+<style>
+#header{
+	background-color: #3f8dbf;
+	float: left;
+	width: 100%;
+	height: 50px;
+	color: rgba(255,255,255,1);
+	line-height: 50px;
+}
+#header a{
+	color: rgba(255,255,255,1);
+	text-decoration: none;
+	display: block;
+	font-size: 15px;
+}
+#header-left{
+	float: left;
+	height: 50px;
+}
+#header-left:hover #header-left-icon{
+	background-color: #3F8DBF;
+	}
+#header-left:hover #header-left-text{
+	background-color: #599BC8;
+	}
+#header-left-icon{
+	float: left;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	background-color: #35759F;
+	-webkit-transition: background 0.5s;
+	-moz-transition: background 0.5s;
+	-o-transition: background 0.5s;
+	transition: background 0.5s;
+}
+#header-left-icon a {
+	font-size: 25px;
+}
+#header-left-text{
+	float: left;
+	height: 50px;
+    -webkit-transition: background 0.5s;
+	-moz-transition: background 0.5s;
+	-o-transition: background 0.5s;
+	transition: background 0.5s;
+}
+#header-left-text a {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#header-right{
+	float: right;
+	height: 50px;
+}
+#header-right:hover #header-right-icon{
+	background-color: #3F8DBF;
+	}
+#header-right:hover #header-right-text{
+	background-color: #599BC8;
+	}
+#header-right-icon{
+	float: right;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	background-color: #35759F;
+	-webkit-transition: background 0.5s;
+	-moz-transition: background 0.5s;
+	-o-transition: background 0.5s;
+	transition: background 0.5s;
+}
+#header-right-text{
+	float: right;
+	height: 50px;
+    -webkit-transition: background 0.5s;
+	-moz-transition: background 0.5s;
+	-o-transition: background 0.5s;
+	transition: background 0.5s;
+}
+#header-right-text a {
+	padding-right: 20px;
+	padding-left: 20px;
+}
+</style>
+<div id="header">
+<div id="header-left">
+<div id="header-left-icon"><a href="http://simbyone.com/responsive-jquery-pop-up-gallery/"><span class="icon-caret-left"></span><span class="iconb" data-icon="&#xe0a0;"></span></a></div>
+<div id="header-left-text"><a href="http://simbyone.com/responsive-jquery-pop-up-gallery/">Responsive Jquery Pop Up Gallery Article</a></div>
+</div>
+
+<div id="header-right">
+<div id="header-right-icon"><a href="http://simbyone.com/download/responsive-jquery-pop-up-gallery/" target="_blank"><span class="icon-download"></span><span class="iconb" data-icon="&#xe22e;"></span></a></div>
+<div id="header-right-text"><a href="http://simbyone.com/download/responsive-jquery-pop-up-gallery/" target="_blank">Download Source</a></div>
+</div>
+</div>
+<div id="fullscreen">
+<div id="fullscreen-inner">
+<div id="fullscreen-inner-left" class="fullscreen-inner-button"><span class="icon-caret-left"></span></div>
+<div id="fullscreen-inner-right" class="fullscreen-inner-button"><span class="icon-caret-right"></span></div>
+<div id="fullscreen-inner-close" class="fullscreen-inner-button"><span class="icon-close"></span></div>
+<div id="fullscreen-image">
+
+
+</div>
+
+
+</div>
+</div>
+
+
+
+
+<div id="wrapper">
+
+<div id="wrapper-inner">
+<div id="wrapper-inner-selection">
+<div id="wrapper-inner-selection-button">
+<div id="wrapper-inner-selection-button-dropdown">
+
+<a href="index.html">First Example</a>
+<a href="index2.html">Second Example</a>
+<a href="index3.html">Third Example</a>
+<a href="index4.html">Forth Example</a>
+<a href="index5.html">Fifth Example</a>
+
+</div>
+First Example<span class="icon-sort-down"></span>
+</div>
+
+</div>
+
+<div class="wrapper-inner-title">True Story.</div>
+<div class="wrapper-inner-content">
+
+<div class="wrapper-inner-content-image">
+
+<img src="_assets/greece1.jpg"/>
+<img src="_assets/greece2.jpg"/>
+<img src="_assets/greece3.jpg"/>
+<img src="_assets/greece4.jpg"/>
+<img src="_assets/greece5.jpg"/>
+<img src="_assets/greece6.jpg"/>
+<img src="_assets/greece7.jpg"/>
+<img src="_assets/greece8.jpg"/>
+<img src="_assets/greece9.jpg"/>
+
+<div class="wrapper-inner-content-image-hover">
+<div class="wrapper-inner-content-image-hover-cercle">
+<span class="icon-search"></span>
+</div>
+</div>
+
+
+
+</div>
+
+
+<div class="wrapper-inner-content-text" style="margin-left:35px;">
+  <p>Morbi faucibus euismod lectus. Morbi rhoncus dignissim tellus eget egestas. Praesent id leo quis massa posuere malesuada nec ut velit. Vivamus tincidunt nunc non sem bibendum posuere. Phasellus commodo dui non sapien aliquam, nec luctus metus ornare. Nullam imperdiet sollicitudin sodales. Morbi quis accumsan enim. Nulla sodales non quam vel dignissim. Donec at ipsum a odio aliquet pellentesque ut ut libero. Sed id dolor nisi. Curabitur eu odio nec tellus scelerisque ultrices ut at nunc. Sed a fringilla ligula.</p>
+  <p>Aenean ullamcorper tortor vitae lorem sollicitudin luctus.</p>
+</div>
+</div>
+<div class="wrapper-inner-content">
+
+<div class="wrapper-inner-content-text" style="margin-right:35px;">
+  <p>Morbi faucibus euismod lectus. Morbi rhoncus dignissim tellus eget egestas. Praesent id leo quis massa posuere malesuada nec ut velit. Vivamus tincidunt nunc non sem bibendum posuere. Phasellus commodo dui non sapien aliquam, nec luctus metus ornare. Nullam imperdiet sollicitudin sodales. Morbi quis accumsan enim. Nulla sodales non quam vel dignissim. Donec at ipsum a odio aliquet pellentesque ut ut libero. Sed id dolor nisi. Curabitur eu odio nec tellus scelerisque ultrices ut at nunc. Sed a fringilla ligula.</p>
+  <p>Aenean ullamcorper tortor vitae lorem sollicitudin luctus.</p>
+</div>
+
+<div class="wrapper-inner-content-image">
+
+<img src="_assets/venice1.jpg"/>
+<img src="_assets/venice2.jpg"/>
+<img src="_assets/venice3.jpg"/>
+<img src="_assets/venice4.jpg"/>
+<img src="_assets/venice5.jpg"/>
+<img src="_assets/venice6.jpg"/>
+<img src="_assets/venice7.jpg"/>
+<img src="_assets/venice8.jpg"/>
+<img src="_assets/venice9.jpg"/>
+
+<div class="wrapper-inner-content-image-hover">
+<div class="wrapper-inner-content-image-hover-cercle">
+<span class="icon-search"></span>
+</div>
+</div>
+
+
+</div>
+</div>
+
+</div>
+
+
+</div>
+
+</body>
+</html>

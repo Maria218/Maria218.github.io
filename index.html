@@ -2,44 +2,263 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Landing page</title>
-    <link rel="stylesheet" href="style.css" media="screen" title="no title">
-    <link rel="stylesheet" href="css/bootstrap.css" media="screen" title="no title">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-    <style media="screen">
-      h1{
-        color: white;
-        font-family: Raleway;
-        font-size: 90px;
-      }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="vertical-fixed-navigation-2-master/css/reset.css">
+    <link rel="stylesheet" href="vertical-fixed-navigation-2-master/css/style.css">
+    <link href="css/_css/Icomoon/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/_css/main.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/_css2/Icomoon/style.css">
+    <link rel="stylesheet" href="css/_css2/main.css">
+    <link rel="stylesheet" href="css/_css2/pop-up-gallery1.css">
+    <link rel="stylesheet" href="css/_css3/Icomoon/style.css">
+    <link rel="stylesheet" href="css/_css3/main.css">
+    <link rel="stylesheet" href="mdb/css/mdb.min.css">
   </head>
   <body>
-    <div class="MainContainer">
 
-      <div class="ParallaxContainer">
-        <h1>Welcome to my website</h1>
-        <div><img class="center" src="images/celebrate.png" alt="" /></div>
-      </div>
-
-      <div class="ContentContainer">
-        <div class="Content">
-          <h2><img src="images/awkward.jpg" alt="" /> One thing though...</h2>
-        </div>
-      </div>
-      <div class="ContentContainer2">
-          <h1>It's not ready yet</h1>
-          <img class="center" src="images/sad.png" alt="" />
-      </div>
-      <div class="ContentContainer3">
-          <h1>But it will be soon, I promise</h1>
-          <img class="center"src="images/wait.jpg" alt="" />
-      </div>
-      <div class="ContentContainer4">
-        <div class="Content">
-          <h1>So stick around!!!</h1>
-        </div>
-      </div>
+    <!-- Preloader -->
+    <div id="loading">
+    <div id="loading-center">
+    <div id="loading-center-absolute">
+    <div class="object"></div>
+    <div class="object"></div>
+    <div class="object"></div>
+    <div class="object"></div>
+    <div class="object"></div>
+    <div class="object"></div>
+    <div class="object"></div>
+    <div class="object"></div>
+    <div class="object"></div>
+    <div class="object"></div>
+    <div class="object"></div>
+    <div class="object"></div>
+    <div class="object"></div>
+    <div class="object"></div>
+    <div class="object"></div>
+    <div class="object"></div>
+    <div class="object"></div>
+    <div class="object"></div>
+    <div class="object"></div>
+    <div class="object"></div>
+    <div class="object"></div>
+    <div class="object"></div>
+    <div class="object"></div>
+    <div class="object"></div>
+    <div class="object"></div>
     </div>
+    </div>
+    </div>
+    <!-- /Preloader -->
+
+    <!--Vertical Side Navigation -->
+    <nav class="cd-vertical-nav">
+    	<ul>
+    		<li><a href="#section1" class="active"><span class="label">Home</span></a></li>
+    		<li><a href="#section2"><span class="label">About</span></a></li>
+    		<li><a href="#section3"><span class="label">Projects</span></a></li>
+    		<li><a href="#section4"><span class="label">Contact</span></a></li>
+    	</ul>
+    </nav>
+    <!--/Vertical Side Navigation -->
+
+    <!-- Changing menu for small devices -->
+    <button class="cd-nav-trigger cd-image-replace">Open navigation<span aria-hidden="true"></span></button>
+    <!-- /Changing menu for small devices -->
+
+    <!-- Sections -->
+
+      <!-- Home -->
+    <section id="section1" class="cd-section"> <!-- cd-section -->
+    	<div class="content-wrapper">
+        <img id="logo" src="images/logo.png" alt="Logo">
+        <br>
+        <br>
+        <h1 class="word" style="text-align:center;">My name is Maria. Welcome to my webpage!</h1>
+        <h2 class="word" style="text-align:center;">I'm <span class="element"></span></h2>
+    		<a href="#section2" class="cd-scroll-down cd-image-replace">scroll down</a>
+    	</div>
+    </section>
+      <!-- /Home -->
+
+      <!-- About Me -->
+    <section id="section2" class="cd-section"> <!-- cd-section -->
+    	<div class="content-wrapper">
+        <div class="container">
+          <h1 style="color: black;">About Me</h1>
+          <div class="card-deck">
+            <div class="card testimonial-card border-primary mb-3">
+              <div class="avatar mx-auto white"><img src="images/code.png" class="rounded-circle">
+              </div>
+              <div class="card-body">
+                <h4 style="color: blue; text-decoration: uppercase" class="card-title">CODER</h4>
+                <hr>
+                <p>I'm a lover of all things code. I speak HTML, CSS and some JavaScript, and I'm still learning more!</p>
+              </div>
+            </div>
+            <div class="card testimonial-card border-success mb-3">
+              <div class="avatar mx-auto white"><img src="images/bootstrap.png" class="rounded-circle">
+              </div>
+              <div class="card-body">
+                <h4 style="color: green; text-decoration: uppercase"class="card-title">FRONTEND PROFICIENT</h4>
+                <hr>
+                <p>I work efficiently with frontend frameworks like Bootstrap for a great web designing touch</p>
+              </div>
+            </div>
+            <div class="card testimonial-card border-dark mb-3">
+              <div class="avatar mx-auto white"><img src="images/magic.png" class="rounded-circle">
+              </div>
+              <div class="card-body">
+                <h4 style="color: black; text-decoration: uppercase" class="card-title">DESIGN CENTERED</h4>
+                <hr>
+                <p>On whatever project I do, I stay extremely focused on design, keeping in mind the theme of the website in it's entirety</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    	</div>
+    </section>
+      <!-- /About Me -->
+
+      <!-- Projects/Gallery -->
+    <section id="section3" class="cd-section"> <!-- cd-section -->
+    	<div class="content-wrapper">
+        <div id="fullscreen">
+        <div id="fullscreen-inner">
+        <div id="fullscreen-inner-left" class="fullscreen-inner-button"><span class="icon-caret-left"></span></div>
+        <div id="fullscreen-inner-right" class="fullscreen-inner-button"><span class="icon-caret-right"></span></div>
+        <div id="fullscreen-inner-close" class="fullscreen-inner-button"><span class="icon-close"></span></div>
+        <div id="fullscreen-image">
+        </div>
+        </div>
+        </div>
+
+        <div class="wrapper-inner-content">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+
+                <div class="wrapper-inner-content-text">
+                  <p style="text-align:left;">This is a personal project meant to be a template for a news website, centered around entertainment and sports. The cards lead to the individual news stories, and below are other news stories. The slide contains latest news and is continually updated as more news stories arrive. The news on this site centres around tech, business, movies, comics, and the miscellaneous.</p>
+                </div>
+
+                <div class="wrapper-inner-content-image">
+
+                <img src="images/project_1.png"/>
+                <img src="images/project_2.png"/>
+                <img src="images/project_3.png"/>
+                <img src="images/project_4.png"/>
+
+                <div class="wrapper-inner-content-image-hover">
+                <div class="wrapper-inner-content-image-hover-cercle">
+                <span class="icon-search"></span>
+                </div>
+                </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="wrapper-inner-content-text">
+                    <p style="text-align: left;">This is another personal project of mine meant to be a health and garden centered website that would give users dietary information and health benefits of vegetables, always reminding them to take their servings of leafy greens, or help them grow the vegetables in their gardens, keeping them aware of plant diseases and good gardening practices.</p>
+                  </div>
+
+                  <div class="wrapper-inner-content-image">
+
+                  <img src="images/project2_1.png"/>
+                  <img src="images/project2_2.png"/>
+                  <img src="images/project2_3.png"/>
+                  <img src="images/project2_4.png"/>
+
+                  <div class="wrapper-inner-content-image-hover">
+                  <div class="wrapper-inner-content-image-hover-cercle">
+                  <span class="icon-search"></span>
+                  </div>
+                  </div>
+
+
+                  </div>
+                </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+      <!-- /Projects/Gallery -->
+
+      <!-- Contact Me -->
+    <section id="section4" class="cd-section"> <!-- cd-section -->
+    	<div class="content-wrapper">
+    		<h2>Contacts</h2>
+    		<p>Want to contact me for more information or to work together on a project? Great!</p>
+        <br>
+        <div class="sim-button button10" data-toggle="modal" data-target="#exampleModalCenter">
+        <span>Click here</span>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle" style="color: black">Contact Me</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <input type="text" class="form-control" id="inputtext4" placeholder="NAME">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <input type="password" class="form-control" id="inputPassword4" placeholder="EMAIL">
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <input type="text" class="form-control" id="inputtext4" placeholder="PHONE NUMBER">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <input type="password" class="form-control" id="inputPassword4" placeholder="ADDRESS">
+                    </div>
+                  </div>
+                  <div class="form-row justify-content-center">
+                    <div class="md-form col-md-6">
+                        <textarea type="text" id="form10" class="md-textarea form-control" rows="5"></textarea>
+                        <label for="form10"><i class="fas fa-pencil-alt"></i>Type in your message here:</label>
+                    </div>
+                  </div>
+                  <button type="submit" class="btn btn-primary btn-lg"><a href="mailto:mariasitumbeko@gmail.com?subject=Email%20Subject&body=Email%20Body%20Text">Sign in</a></button>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary btn-lg" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    	</div>
+    </section>
+
+
+      <!-- /Contact Me -->
+    <!-- /Sections -->
+
+    <script src="jquery-3.3.1.min.js" charset="utf-8"></script>
+    <script src="typed.min.js" charset="utf-8"></script>
+    <script src="script.js" charset="utf-8"></script>
+    <script src="js/bootstrap.js" charset="utf-8"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <script src="vertical-fixed-navigation-2-master/js/modernizr.js" charset="utf-8"></script>
+    <script src="vertical-fixed-navigation-2-master/js/main.js"></script>
+    <script type="text/javascript" src="js/_scripts/jquery-2.0.2.min.js"></script>
+    <script type="text/javascript" src="js/_scripts/main.js"></script>
+    <script src="js/_scripts2/jquery-2.1.4.min.js" charset="utf-8"></script>
+    <script src="js/_scripts2/pop-up-gallery1.js" charset="utf-8"></script>
+    <script src="js/_scripts3/jquery-2.1.4.min.js" charset="utf-8"></script>
+
   </body>
 </html>

@@ -20,7 +20,7 @@ img{
 
 
 /* Preloader */
-#loading{
+/*#loading{
 	background-color: #d64700;
 	height: 100%;
 	width: 100%;
@@ -632,6 +632,6 @@ img{
    	-webkit-transform: translate(80px,30px) rotate(180deg);
     transform: translate(80px,30px) rotate(180deg);
   }
-}
+}*/
 
 /* /Preloader */
